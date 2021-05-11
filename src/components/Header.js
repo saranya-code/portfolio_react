@@ -1,32 +1,23 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Header = (props) =>{
-    return(<header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Saranya Dayalan</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav mt-2 mt-lg-0">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#aboutUs">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"  href="#portFolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://docs.google.com/document/d/1iTXkBHDMUbAZORL74VQvgxjeg9w0U9lKUHB2kYV2uOg/edit">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contactMe">Contact Me</a>
-                        </li>
-                  </ul>
-                </div>
-              </nav>
-        </header>
+    return(
+    <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div className="container">
+            <a className="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+            <button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i className="fas fa-bars"></i>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarResponsive">
+                <ul className="navbar-nav ml-auto">
+                    <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+                    <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     );
 };
 

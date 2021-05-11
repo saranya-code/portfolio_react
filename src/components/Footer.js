@@ -3,21 +3,52 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = (props) =>{
     return(
-        <main class="row mt-5 mb-5 ml-3 mr-3" id="contactMe">
-            <div class="detail-header col-lg-2 col-md-4 col-sm-12 "> Contact Me  </div>
-                <div class="detail col-lg-10 col-md-8 col-sm-12">
-                    <div class="row">
-                        <div class="col-lg-4"><a href="mailto:saranya28dayalan@gmail.com" > <i class="fas fa-envelope-open"></i>  saranyadayalan28@gmail.com </a></div>
-                        <div class="col-lg-4"><i class="fas fa-mobile-alt"></i>  763-670-4535</div>
-                        <div class="col-lg-4"><i class="fas fa-map-marker-alt"></i>  4000 Parklawn Ave, Edina</div>
-                        <div class="col-lg-4" id="resume"> <a href="https://docs.google.com/document/d/1iTXkBHDMUbAZORL74VQvgxjeg9w0U9lKUHB2kYV2uOg/edit"><i class="far fa-file-pdf"></i>  Resume </a></div>
-                        <div class="col-lg-4"><a href="https://github.com/saranya-code" > <i class="fab fa-github"></i>  GitHub </a> </div>
-                        <div class="col-lg-4"><a href="https://www.linkedin.com/in/saranya-dayalan-27822020a/"> <i class="fab fa-linkedin"></i>  LinkedIn </a></div>
-                 </div>
-           </div>
-        </main>
-
-
+        <>
+        <footer className="footer text-center">
+            <div className="container">
+                <div className="row">
+                    {/* <!-- Footer Location--> */}
+                    <div className="col-lg-4 mb-5 mb-lg-0">
+                        <h4 className="text-uppercase mb-4">Location</h4>
+                        <p className="lead mb-0">
+                            2215 John Daniel Drive
+                            <br />
+                            Clark, MO 65243
+                        </p>
+                    </div>
+                    {/* <!-- Footer Social Icons--> */}
+                    <div className="col-lg-4 mb-5 mb-lg-0">
+                        <h4 className="text-uppercase mb-4">Around the Web</h4>
+                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-facebook-f"></i></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter"></i></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in"></i></a>
+                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    {/* <!-- Footer About Text--> */}
+                    <div className="col-lg-4">
+                        <h4 className="text-uppercase mb-4">About Freelancer</h4>
+                        <p className="lead mb-0">
+                            Freelance is a free to use, MIT licensed Bootstrap theme created by
+                            <a href="http://startbootstrap.com">Start Bootstrap</a>
+                            .
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div className="copyright py-4 text-center text-white">
+            <div className="container">
+                <small>
+                    Copyright &copy; Saranya Dayalan Portfolio
+                    {/* <!-- This script automatically adds the current year to your website footer-->
+                    <!-- (credit: https://updateyourfooter.com/)--> */}
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                </small>
+            </div>
+        </div>
+        </>
     );
 };
 
