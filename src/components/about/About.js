@@ -6,12 +6,9 @@ import AboutDescription from "./AboutDescription";
 
 const About = (props) =>{
     return(
-        <div>
-            <Header />
-            <AboutDescription />
-            <Footer />
         
-        </div>
+            <AboutDescription />
+       
     );
 };
 
