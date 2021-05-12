@@ -1,6 +1,7 @@
 
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar,faDownload } from '@fortawesome/free-solid-svg-icons';
 
 
 const AboutDescription = (props) =>{
@@ -8,11 +9,13 @@ const AboutDescription = (props) =>{
          <section className="page-section bg-primary text-white mb-0 mt-5" id="about">
             <div className="container">
                 {/* <!-- About Section Heading--> */}
-                <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
+                <div className="text-center">
+                    <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
+                </div>
                 {/* <!-- Icon Divider--> */}
                 <div className="divider-custom divider-light">
                     <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                    <div className="divider-custom-icon"><FontAwesomeIcon icon={faStar} /></div>
                     <div className="divider-custom-line"></div>
                 </div>
                 {/* <!-- About Section Content--> */}
@@ -22,9 +25,8 @@ const AboutDescription = (props) =>{
                 </div>
                 {/* <!-- About Section Button--> */}
                 <div className="text-center mt-4">
-                    <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i className="fas fa-download mr-2"></i>
-                        Download Resume
+                    <a className="btn btn-xl btn-outline-light" href="https://docs.google.com/document/d/1iTXkBHDMUbAZORL74VQvgxjeg9w0U9lKUHB2kYV2uOg/edit">
+                 <FontAwesomeIcon icon={faDownload} /> Download Resume
                     </a>
                 </div>
             </div>
