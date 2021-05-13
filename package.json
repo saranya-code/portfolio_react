@@ -1,4 +1,5 @@
 {
+  "homepage": "https://saranya-code.github.io/portfolio_react",
   "name": "saranya_portfolio_react",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +21,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": { 
-    "predeploy": "PUBLIC_URL='/portfolio_react' react-scripts build",
+    "predeploy": "PUBLIC_URL='/portfolio_react' npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "PUBLIC_URL='/portfolio_react' react-scripts build",
