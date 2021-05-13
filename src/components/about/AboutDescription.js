@@ -20,8 +20,8 @@ const AboutDescription = (props) =>{
                 </div>
                 {/* <!-- About Section Content--> */}
                 <div className="row">
-                    <div className="col-lg-4 ml-auto"><p className="lead">Hi I am Saranya Dayalan,currently I am located in Minnesota. I completed my graduation in 2010 , and I am doing full stack development course in University of Minnesota. </p></div>
-                    <div className="col-lg-4 mr-auto"><p className="lead"> I have some testing knowledge experience. I would like to learn new technologies and implementing in projects. I am good team player with analytical and problem solving skills.</p></div>
+                    <div className="col-lg-4 ml-auto"><p className="lead">Hello, I am Saranya Dayalan,located in Minneapolis completed my graduation in Master's and I am doing full stack development course in University of Minnesota.  </p></div>
+                    <div className="col-lg-4 mr-auto"><p className="lead"> Trained full-stack JavaScript developer with experience using React, Node & Express, and NoSQL to build web apps. Passionate about all things UX/UI and front-end. Background in QA testing</p></div>
                 </div>
                 {/* <!-- About Section Button--> */}
                 <div className="text-center mt-4">
@@ -35,7 +35,7 @@ const AboutDescription = (props) =>{
 };
 
 export default AboutDescription;
-// Hi I am Saranya Dayalan,currently I am located in Minnesota. I completed my graduation in 2010 , and I am doing full stack development course in University of Minnesota. 
+// Hello, I am Saranya Dayalan,located in Minneapolis and completed my graduation in 2010,and I am doing full stack development course in University of Minnesota. 
 //                     I have some testing knowledge experience. I would like to learn new technologies and implementing in projects. I am good team player with analytical and problem solving skills.
 //                     Abiliity to learn quickly and proven to deliver against time effectively. I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. 
 //                     I am looking for career opportunities.
