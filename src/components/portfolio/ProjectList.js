@@ -5,7 +5,7 @@ const ProjectList = (props) =>{
     return(
         <div className="col-lg-6 col-sm-12 col-md-6 p-2">
             <div className="card h-100">
-                <img src={`assets/images/${portfolio.image}`} className="card-img-top" alt="workdayschedular" />
+                <img src={`/assets/images/${portfolio.image}`} className="card-img-top" alt="workdayschedular" />
                 <div className="card-body">
                     <h5 className="card-title">{portfolio.title}</h5>
                     <p className="card-text">{portfolio.description}</p>
