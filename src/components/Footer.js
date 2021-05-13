@@ -12,7 +12,7 @@ const Footer = (props) =>{
                 <div className="row">
                     {/* <!-- Footer Location--> */}
                     <div className="col-lg-6 mb-5 mb-lg-0">
-                        <h4 className="text-uppercase mb-4">Location</h4>
+                        <h4 className="text-uppercase mb-4">Address</h4>
                         <p className="lead mb-0">
                             4000 Parklawn Ave
                             <br />
@@ -27,15 +27,6 @@ const Footer = (props) =>{
                         <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/saranya-dayalan-27822020a/"> <FontAwesomeIcon icon={faLinkedin} /> </a>
                         
                     </div>
-                    {/* <!-- Footer About Text--> */}
-                    {/* <div className="col-lg-4">
-                        <h4 className="text-uppercase mb-4">About Freelancer</h4>
-                        <p className="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div> */}
                 </div>
             </div>
         </footer>
