@@ -21,10 +21,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": { 
-    "predeploy": "PUBLIC_URL='/portfolio_react' npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "PUBLIC_URL='/portfolio_react' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
