@@ -35,7 +35,7 @@ After cloning the repo, install the required npm packages, use the command line 
 
 Github repository URL : https://github.com/saranya-code/portfolio_react
 
-Deployed URL (Deployed in gh-page) : https://saranya-code.github.io/portfolio_react/
+Deployed URL : https://fathomless-sierra-18931.herokuapp.com/
 
 
 
