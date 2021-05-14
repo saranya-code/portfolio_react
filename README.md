@@ -35,11 +35,9 @@ After cloning the repo, install the required npm packages, use the command line 
 
 Github repository URL : https://github.com/saranya-code/portfolio_react
 
-Deployed URL (Deployed in gh-page) : 
+Deployed URL (Deployed in gh-page) : https://saranya-code.github.io/portfolio_react/
 
-# Screenshot
 
-![Webpage Screenshot](./images/workout-tracker.gif?raw=true)
 
 
 
