@@ -20,7 +20,11 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+<<<<<<< HEAD
   "scripts": {
+=======
+  "scripts": { 
+>>>>>>> c92c663ece453f95d969c86ce06b1feb37ef35ab
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
