@@ -1,36 +1,43 @@
 [
-{
-    "title":"Workday Scheduler",
-    "description":"A simple calendar application that allows a user to save events for each hour of the day. It runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
-    "demo":"https://saranya-code.github.io/Work_Day_Scheduler/",
-    "git":"https://github.com/saranya-code/Work_Day_Scheduler",
-    "image":"DemoURL.gif"
-},
-{
-    "title":"Weather Dashboard",
-    "description":"A web-based dashboard built to show the current weather in a city of choice and the upcoming five (5) day forecast for that city.",
-    "demo":"https://saranya-code.github.io/Weather_Dashboard/",
-    "git":"https://github.com/saranya-code/Weather_Dashboard",
-    "image":"page2.png"
-},
-{
-    "title":"Friend-Finder",
-    "description":"A web application will help the user to find the pet to adopt.",
-    "demo":"https://saranya-code.github.io/adopt-pet-app/index.html",
-    "git":"https://github.com/Drewole/adopt-pet-app",
-    "image":"adoptpet.png"
-},
-{
-    "title":"Employee Tracker",
-    "description":"A CLI application for managing a company's employees tracker using node, inquirer, and MySQL.",
-    "git":"https://github.com/saranya-code/Employee_Tracker",
-    "image":"employee-tracker.gif"
-},
-{
-    "title":"Studdy Buddy",
-    "description":"Study Buddy is an app that allows a signed-in user to view their notes and upcoming study sessions from their dashboard",
-    "demo":"https://mysterious-bayou-93387.herokuapp.com/",
-    "git":"https://github.com/saranya-code/StudyBuddy",
-    "image":"studybuddy.gif"
-}
+  {
+    "title": "Workday Scheduler",
+    "description": "A simple calendar application that allows a user to save events for each hour of the day. It runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
+    "demo": "https://saranya-code.github.io/Work_Day_Scheduler/",
+    "git": "https://github.com/saranya-code/Work_Day_Scheduler",
+    "image": "DemoURL.gif"
+  },
+  {
+    "title": "Weather Dashboard",
+    "description": "A web-based dashboard built to show the current weather in a city of choice and the upcoming five (5) day forecast for that city.",
+    "demo": "https://saranya-code.github.io/Weather_Dashboard/",
+    "git": "https://github.com/saranya-code/Weather_Dashboard",
+    "image": "page2.png"
+  },
+  {
+    "title": "Friend-Finder",
+    "description": "A web application will help the user to find the pet to adopt.",
+    "demo": "https://saranya-code.github.io/adopt-pet-app/index.html",
+    "git": "https://github.com/Drewole/adopt-pet-app",
+    "image": "adoptpet.png"
+  },
+  {
+    "title": "Employee Tracker",
+    "description": "A CLI application for managing a company's employees tracker using node, inquirer, and MySQL.",
+    "git": "https://github.com/saranya-code/Employee_Tracker",
+    "image": "employee-tracker.gif"
+  },
+  {
+    "title": "Studdy Buddy",
+    "description": "Study Buddy is an app that allows a signed-in user to view their notes and upcoming study sessions from their dashboard",
+    "demo": "https://mysterious-bayou-93387.herokuapp.com/",
+    "git": "https://github.com/saranya-code/StudyBuddy",
+    "image": "studybuddy.gif"
+  },
+  {
+    "title": "Garyphernelia",
+    "description": "Garyphenalia is the virtual online store where customers can browse the category and select the products of interest.",
+    "demo": "https://pure-shore-88337.herokuapp.com/#/",
+    "git": "https://github.com/lpaschka37/MERN_Project3",
+    "image": "finalproject.gif"
+  }
 ]
