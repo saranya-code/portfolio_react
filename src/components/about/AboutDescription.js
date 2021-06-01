@@ -45,7 +45,7 @@ const AboutDescription = (props) => {
         <div className="text-center mt-4">
           <a
             className="btn btn-xl btn-outline-light"
-            href="https://drive.google.com/drive/folders/1bMqMfF1ZZzZ6C1hIPXYNrwwxJF8vnXb9"
+            href="https://drive.google.com/file/d/1BpNoqHiBHOHXVagluV3FkZu8qGpO5eeI/view"
           >
             <FontAwesomeIcon icon={faDownload} /> Download Resume
           </a>
